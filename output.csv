@@ -1,3 +1,11 @@
+* Below is the group's csv file that clones the group's repo and contain all the group's output
+* We first created a Folder and cloned the Git repo innside using the comman "git clone https://github.com/bennywak/GSU_GROUP-B-AAssignment.git"
+* we then run every file and equate them to a variable "e.g cat script >> output.txt"
+* we converterted the output to csv usin the command "awk '{print $1 "," $3}' output.txt > output.csv"
+* the txt file was removed using "rm output.txt"
+
+* we run the csv file using "cat output.csv" 
+
 goCopycodepackage,main
 import(,
 "fmt",
